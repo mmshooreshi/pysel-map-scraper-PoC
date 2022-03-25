@@ -62,7 +62,8 @@ You can reach me on [`Telegram @forthetim6being`](https://t.me/forthetim6being)
   
    🧬 Each time the app starts, it reads the `customized search queries and map zooms` from the `❮CSV input file❯`. as there may be more than a single query, It may repeat the track for any query and map zoom once it finished the track. 
 
-
+![LoopGif2](https://raw.githubusercontent.com/mmshooreshi/pysel-map-scraper-PoC/main/assets/gif-large.gif)
+ 
 ## ⧆ Why? 
 When your money value become close to zero in the real world outside your country, google APIs may not be in your options as a hobbyist data enthusiast.
 this project may be beneficial for small projects, looking to a fast and easy way to look around the local places data. 
