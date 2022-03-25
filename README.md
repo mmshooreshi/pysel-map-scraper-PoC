@@ -1,10 +1,5 @@
-<div> 
- <p>
- 
-  # pysel-map-scraper   ✨ ![LoopGif3](https://cultofthepartyparrot.com/parrots/hd/parrot.gif)
+# pysel-map-scraper   ✨ ![LoopGif3](https://cultofthepartyparrot.com/parrots/hd/parrot.gif)
 
- </p> 
-</div>
 
 
 
