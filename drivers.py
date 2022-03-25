@@ -17,7 +17,7 @@ def create_driver(headless=False):
     chrome_options.add_extension("GPlaces-get.crx")
 
     path = os.path.dirname(os.path.abspath(__file__))
-    prefs = {"download.default_directory" : path+"/DOWNLOADED"}
+    prefs = {"download.default_directory" : path+"/OUTPUT"}
     chrome_options.add_experimental_option("prefs",prefs)
 
 

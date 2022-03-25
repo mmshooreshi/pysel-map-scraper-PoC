@@ -499,7 +499,7 @@ def getMoveRatio():
 def azaval():
     global nextPointIJ,csvwriter,csvfile, latestPoint, ind , TypeVar
     
-    filename = "DOWNLOADED/latest_"+TypeVar+".csv"
+    filename = "OUTPUT/latest_"+TypeVar+".csv"
     if os.path.exists(filename):
         with open(filename,'r') as csvfile: 
             latest = csv.reader(csvfile,quoting=csv.QUOTE_NONNUMERIC)
