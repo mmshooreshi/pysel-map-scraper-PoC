@@ -17,7 +17,7 @@
 - [Why?](#-why)
 - [What's new?](#-whats-new)
 - [Getting Started](#-getting-started) 🔰
-- [Scraped Fields](#---scraped-fields)
+- [Scraped Fields](#-scraped-fields)
 
 
 ## Contribution
@@ -69,7 +69,7 @@ anytime you run the app, it uses the stored logs and gets able to continue the p
 
 ![LoopGif1](https://media.giphy.com/media/D1BbNdibKVeuBZAAJT/giphy.gif)
 
-## ＊ {#--scraped-fields}  
+## ＊ {#scraped-fields}  
 Scraped fields for each place:
 
  UUID | Created_at | Query | Full address | Local Name | Local full address | Latitude & Longitude | Categories | Reviews 
