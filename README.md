@@ -35,7 +35,7 @@ You can reach me on [Telegram @forthetim6being](https://t.me/forthetim6being)
 
 ## License
 
-[![Licence](https://img.shields.io/github/license/mmshooreshi/pysel-map-scraper-POC?style=for-the-badge)](./LICENSE)
+[![Licence](https://img.shields.io/github/license/mmshooreshi/pysel-map-scraper-PoC?style=for-the-badge)](./LICENSE)
 <hr>
 
 
