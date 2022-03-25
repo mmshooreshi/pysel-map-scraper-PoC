@@ -1,20 +1,21 @@
-# pysel-map-scraper-PoC
 <div> 
  <p>
  
-  # pysel-map-scraper   ✨ ![PoC](https://img.shields.io/badge/PoC-Proof--of--Concept-green)
+  # pysel-map-scraper   ✨ ![LoopGif3](https://cultofthepartyparrot.com/parrots/hd/parrot.gif)
 
  </p> 
- <p><small>
-  
-
-  </small></p> 
-
 </div>
+
+
+
+![LoopGif2](https://media.giphy.com/media/sltXBTQh2ogIFYwNNk/giphy.gif)
+
 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![PoC](https://img.shields.io/badge/PoC-Proof--of--Concept-3EE9A1?style=for-the-badge&logo=selenium&logoColor=white) 
+
 #### This project is more of a Proof-of-Concept than something for production use.  (´ｰ｀ )ﾉ 🔫
 
 # Table of contents
@@ -107,50 +108,6 @@ print(mtcars)
 
 
 
-::: {#hello .greeting .message style="color: red;"}
-Hello **world**!
-:::
-
-
-```{css, echo=FALSE}
-.watch-out {
-  background-color: lightpink;
-  border: 3px solid red;
-  font-weight: bold;
-}
-```
-
-Then we assign a class `watch-out` to the code chunk via the
-chunk option `class.source`.
-
-```{r class.source="watch-out"}
-mtcars[1:5, "mpg"]
-```
-
-
----
-title: Change the chunk style
-output: html_document
----
-
-When you subset a data frame, it does not necessarily return
-a data frame. For example, if you subset two columns, you get
-a data frame, but when you try to subset one column, you get
-a vector:
-
-```{r class.source="bg-danger", class.output="bg-warning"}
-mtcars[1:5, "mpg"]
-```
-
-To make sure that we always get a data frame, we have to use
-the argument `drop = FALSE`. Now we use the chunk option
-`class.source = "bg-success"`.
-
-```{r df-drop-ok, class.source="bg-success"}
-mtcars[1:5, "mpg", drop = FALSE]
-```
-
-
 ---
 
 
@@ -180,8 +137,16 @@ anytime you run the app, it uses the stored logs and gets able to continue the p
 
 ---
 
+![LoopGif1](https://media.giphy.com/media/D1BbNdibKVeuBZAAJT/giphy.gif)
+
  Scraped fields for each place:
-❨UUID❩
+
+ UUID | Created_at | Query | *Full address* | `Local name` | **Local full address**
+ Latitude & Longitude | Categories | Reviews | Rating | URL | Domain
+ Thumbnail | Addr1 | Addr2 | Addr3 | Addr4 | District
+ Timezone
+ 
+ ❨UUID❩
 ❬Created_at❭
 ❲  
 
