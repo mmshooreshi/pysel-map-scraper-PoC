@@ -42,25 +42,29 @@ You can reach me on [Telegram @forthetim6being](https://t.me/forthetim6being)
 
 [![Licence](https://img.shields.io/github/license/mmshooreshi/pysel-map-scraper-POC?style=for-the-badge)](./LICENSE)
 <hr>
-<hr>
 
 
-# Features
-Cute: choo choo!
- https://cultofthepartyparrot.com/parrots/hd/parrot.gif
-* [Mahdi Shooreshi](https://t.me/forthetim6being) ([Web](http://fabian-beiner.de)) *(GooglePlus-Scraper)*
-* ?
+                  
+#   ⚡                      
+┌┬────────────────┐
+││General Features│
+└┴────────────────┘
+ ▼🚶
+ 🜚 Scraping google places using Selenium Python in a simple approach.
+ 🜚 No need to google maps API
+ 🜚 No need of any scrolling on the google maps sidebar or handling the pagination
+ 🜚 In case of URL redirecting triggered by google maps, It continue the scraping process from the last place it has been scraped, after it reloaded the page.
+ 🜚 Predefined scraping track as a GEOJSON file, define the movement route of the scraper on the map.
+ 🜚 Each time the app start to move in the ❮☡ GEOJSON file❯, it reads the customized search queries and map zooms from the CSV input file. as there may be more than a single query, It may repeat the track for any query and map zoom once it finished the track.
+
 ```
-,<br/>
-|'.<br/> 
-|_ r<br/>
-  ⁮\\<br/>
+,
+|'.
+|_ r
+  ⁮\\
    `
 ```
 
- 
-
- 
  
 # two
 
@@ -99,25 +103,7 @@ mtcars[1:5, "mpg", drop = FALSE]
 ```{r, class.output="scroll-100"}
 print(mtcars)
 ```
-                        
-   ⚡                      
-┌┬────────────────┐
-││General features│
-└┴────────────────┘
- ▼🚶
-
-
-
----
-
-
- 🜚 Scraping google places using Selenium Python in a simple approach.
- 🜚 No need to google maps API
- 🜚 No need of any scrolling on the google maps sidebar or handling the pagination
- 🜚 In case of URL redirecting triggered by google maps, It continue the scraping process from the last place it has been scraped, after it reloaded the page.
- 🜚 Predefined scraping track as a GEOJSON file, define the movement route of the scraper on the map.
- 🜚 Each time the app start to move in the ❮☡ GEOJSON file❯, it reads the customized search queries and map zooms from the CSV input file. as there may be more than a single query, It may repeat the track for any query and map zoom once it finished the track.
-
+ 
 ---
 
 ⧆ Why?
