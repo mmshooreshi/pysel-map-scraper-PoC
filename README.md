@@ -9,6 +9,15 @@
 
 #### This project is more of a Proof-of-Concept than something for production use.  (´ｰ｀ )ﾉ 🔫
 
+#
+
+📎 [❮GEOJSON file❯ | INPUT-ROUTE.geojson](./INPUT-ROUTE.geojson)
+  
+📎 [❮CSV file❯ | INPUT-queries.csv](./INPUT-queries.csv]) 📝
+  
+📎 [❮CRX file❯ | GPlaces-get.crx](./GPlaces-get.crx) ⚙
+
+
 # Table of contents
 - [Contribution](#contribution)
 - [Contact](#contact)
@@ -76,9 +85,9 @@ Scraped fields for each place:
  :---: | :--------: | :---:  | :----------: | :--------: | :----------------: | :------------------: | :--------: | :-----:
  Rating | URL | Domain | Thumbnail | Addr1 | Addr2 | Addr3 | District  | Timezone 
  
----
+
   
-📋 Get started
+# Get started 
   
 1. Clone this repository.
   
@@ -89,9 +98,3 @@ Either download the GPlaces-get.crx or clone it's repository and export it to CR
 https://browsers.chromedriver.chromium.org
 It is an open source tool for automated testing of webapps across many browsers. It provides capabilities for navigating to web pages, user input, JavaScript execution, and more.  ChromeDriver is a standalone server that implements the W3C WebDriver standard, and is available for Chrome on Android and Chrome on Desktop (Mac, Linux, Windows and ChromeOS).
   
-  
-📎 [❮GEOJSON file❯ | INPUT-ROUTE.geojson](./INPUT-ROUTE.geojson)
-  
-📎 [❮CSV file❯ | INPUT-queries.csv](./INPUT-queries.csv]) 📝
-  
-📎 [❮CRX file❯ | GPlaces-get.crx](./GPlaces-get.crx) ⚙
