@@ -53,16 +53,15 @@ You can reach me on [Telegram @forthetim6being](https://t.me/forthetim6being)
    🧬 Each time the app starts, it reads the `customized search queries and map zooms` from the `❮CSV input file❯`. as there may be more than a single query, It may repeat the track for any query and map zoom once it finished the track. 
 
 
-# ⧆ Why? 
+## ⧆ Why? 
 When your money value become close to zero in the real world outside your country, google APIs may not be in your options as a hobbyist data enthusiast.
-this project may be beneficial for small projects, looking to a fast and easy way to look around the local places data. 💸🔰⊞ ⊟ ⊠ ⊡ ⚿ ⛝ ❎ ⟎ ⟏ ⧄ ⧅ ⧆ ⧇ ⧈ ⸬☻ 
+this project may be beneficial for small projects, looking to a fast and easy way to look around the local places data. 
 
-
-# ⚅ What's new?
+## ⚅ What's new?
 Previous open-source selenium tools have been mostly based on scrolling on the google maps paginated sidebar of places and scrape the data. However, in this project, google places information are extracted from the local storage of the browser directly with using the content scripts of the GPlaces-get extension, as another open-source project on JavaScript. So without the use of any google APIs, map viewport gets moving and moving on the predefined route and extracts the places data as CSV files for every <n> scraped places (default: 100).
 
 
-### 🔰 Getting started
+## 🔰 Getting started
 
   pysel-map-scraper get's moving on the map based on the `❮☡ GEOJSON file❯` defining the route `(INPUT-ROUTE.geojson)`. It run the procedure of scraping for each of search queries in the `CSV input file (INPUT-queries.csv)`, And restart the route once each query finished. The app triggers "search this area" button every time gets to a new viewport. GPlaces-get is writing all the data on CSV files and exporting them automatically, whenever it stores 100 new places (and also you may customize this).
 anytime you run the app, it uses the stored logs and gets able to continue the process from the last location&query it has been scraped.  
@@ -70,7 +69,7 @@ anytime you run the app, it uses the stored logs and gets able to continue the p
 
 ![LoopGif1](https://media.giphy.com/media/D1BbNdibKVeuBZAAJT/giphy.gif)
 
-# ＊ {#scraped-fields}  
+## ＊ {#--scraped-fields}  
 Scraped fields for each place:
 
  UUID | Created_at | Query | Full address | Local Name | Local full address | Latitude & Longitude | Categories | Reviews 
@@ -78,13 +77,15 @@ Scraped fields for each place:
  Rating | URL | Domain | Thumbnail | Addr1 | Addr2 | Addr3 | District  | Timezone 
  
 ❲  
-⛓
 ---
- 
+  
 📋 Get started
+  
 1. Clone this repository.
-2. 📎 ❮GPlaces-get.crx❯ ❳❪ ❫ ❴ ❵ ❬ ❭ ❮ ❯ ❰ ❱  ➜  . / pysel-map-scraper-SOC / [move to here]
+  
+2. put the 📎`❮GPlaces-get.crx❯` in  . / pysel-map-scraper-SOC / [move to here]
 Either download the GPlaces-get.crx or clone it's repository and export it to CRX using google chrome extensions developer tools (or other applicable tools).
+  
 3. donwload the latest chromedriver (which is also open-source) for your operating system from the link below:
 https://browsers.chromedriver.chromium.org
 It is an open source tool for automated testing of webapps across many browsers. It provides capabilities for navigating to web pages, user input, JavaScript execution, and more.  ChromeDriver is a standalone server that implements the W3C WebDriver standard, and is available for Chrome on Android and Chrome on Desktop (Mac, Linux, Windows and ChromeOS).
