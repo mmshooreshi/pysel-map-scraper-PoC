@@ -91,10 +91,17 @@ Scraped fields for each place:
   
 1. Clone this repository.
   
-2. put the 📎`❮GPlaces-get.crx❯` in  . / pysel-map-scraper-SOC / [move to here]
+2. Put the 📎`❮GPlaces-get.crx❯` in  . / pysel-map-scraper-SOC / [move to here]
 Either download the GPlaces-get.crx or clone it's repository and export it to CRX using google chrome extensions developer tools (or other applicable tools).
   
-3. donwload the latest chromedriver (which is also open-source) for your operating system from the link below:
+3. Donwload the latest chromedriver (which is also open-source) for your operating system from the link below:
 https://browsers.chromedriver.chromium.org
 It is an open source tool for automated testing of webapps across many browsers. It provides capabilities for navigating to web pages, user input, JavaScript execution, and more.  ChromeDriver is a standalone server that implements the W3C WebDriver standard, and is available for Chrome on Android and Chrome on Desktop (Mac, Linux, Windows and ChromeOS).
   
+4. Complete the INPUT_queries CSV files. It has two columns (query, zoom). each row will be scraped on the map seperately. feel free to add rows as much as you want.
+  
+5. Go to terminal and open your source directory. then use the following code to run the code:
+  
+  ```
+  sudo python3 main.py
+  ```
