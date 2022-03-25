@@ -76,7 +76,6 @@ Scraped fields for each place:
  :---: | :--------: | :---:  | :----------: | :--------: | :----------------: | :------------------: | :--------: | :-----:
  Rating | URL | Domain | Thumbnail | Addr1 | Addr2 | Addr3 | District  | Timezone 
  
-❲  
 ---
   
 📋 Get started
@@ -92,5 +91,7 @@ It is an open source tool for automated testing of webapps across many browsers.
   
   
 📎 [❮GEOJSON file❯ | INPUT-ROUTE.geojson](./INPUT-ROUTE.geojson)
+  
 📎 [❮CSV file❯ | INPUT-queries.csv](./INPUT-queries.csv]) 📝
+  
 📎 [❮CRX file❯ | GPlaces-get.crx](./GPlaces-get.crx) ⚙
