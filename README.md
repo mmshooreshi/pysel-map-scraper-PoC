@@ -11,7 +11,7 @@
 
 #
 
-📎 [❮GEOJSON file❯ | INPUT-ROUTE.geojson](./INPUT-ROUTE.geojson)
+📎 [❮GEOJSON file❯ | INPUT-path.geojson](./INPUT_path.geojson)
   
 📎 [❮CSV file❯ | INPUT-queries.csv](./INPUT-queries.csv]) 📝
   
@@ -57,7 +57,7 @@ You can reach me on [Telegram @forthetim6being](https://t.me/forthetim6being)
   
    🧮 In case of URL redirecting triggered by google maps, It continue the scraping process **from the last place** it has been scraped. 
   
-   🪁 Predefined scraping track as a `❮☡ GEOJSON file❯`, define the **movement route** of the scraper on the map.
+   🪁 Predefined scraping track as a `❮☡ GEOJSON file❯`, define the **movement path** of the scraper on the map.
   
    🧬 Each time the app starts, it reads the `customized search queries and map zooms` from the `❮CSV input file❯`. as there may be more than a single query, It may repeat the track for any query and map zoom once it finished the track. 
 
@@ -67,12 +67,12 @@ When your money value become close to zero in the real world outside your countr
 this project may be beneficial for small projects, looking to a fast and easy way to look around the local places data. 
 
 ## ⚅ What's new?
-Previous open-source selenium tools have been mostly based on scrolling on the google maps paginated sidebar of places and scrape the data. However, in this project, google places information are extracted from the local storage of the browser directly with using the content scripts of the GPlaces-get extension, as another open-source project on JavaScript. So without the use of any google APIs, map viewport gets moving and moving on the predefined route and extracts the places data as CSV files for every <n> scraped places (default: 100).
+Previous open-source selenium tools have been mostly based on scrolling on the google maps paginated sidebar of places and scrape the data. However, in this project, google places information are extracted from the local storage of the browser directly with using the content scripts of the GPlaces-get extension, as another open-source project on JavaScript. So without the use of any google APIs, map viewport gets moving and moving on the predefined path and extracts the places data as CSV files for every <n> scraped places (default: 100).
 
 
 ## 🔰 Getting started
 
-  pysel-map-scraper get's moving on the map based on the `❮☡ GEOJSON file❯` defining the route `(INPUT-ROUTE.geojson)`. It run the procedure of scraping for each of search queries in the `CSV input file (INPUT-queries.csv)`, And restart the route once each query finished. The app triggers "search this area" button every time gets to a new viewport. GPlaces-get is writing all the data on CSV files and exporting them automatically, whenever it stores 100 new places (and also you may customize this).
+  pysel-map-scraper get's moving on the map based on the `❮☡ GEOJSON file❯` defining the path `(INPUT_path.geojson)`. It run the procedure of scraping for each of search queries in the `CSV input file (INPUT-queries.csv)`, And restart the path once each query finished. The app triggers "search this area" button every time gets to a new viewport. GPlaces-get is writing all the data on CSV files and exporting them automatically, whenever it stores 100 new places (and also you may customize this).
 anytime you run the app, it uses the stored logs and gets able to continue the process from the last location&query it has been scraped.  
 
 
