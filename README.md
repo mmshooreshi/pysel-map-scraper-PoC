@@ -11,11 +11,11 @@
 
 #
 
-📎 [❮GEOJSON file❯ | INPUT-path.geojson](./INPUT_path.geojson)
+📎 [`❮GEOJSON file❯ | INPUT-path.geojson`](./INPUT_path.geojson)
   
-📎 [❮CSV file❯ | INPUT-queries.csv](./INPUT-queries.csv]) 📝
+📎 [`❮CSV file❯ | INPUT-queries.csv`](./INPUT-queries.csv]) 📝
   
-📎 [❮CRX file❯ | GPlaces-get.crx](./GPlaces-get.crx) ⚙
+📎 [`❮CRX file❯ | GPlaces-get.crx`](./GPlaces-get.crx) ⚙
 
 
 # Table of contents
@@ -34,12 +34,13 @@
 Open to any Contributions
 
 <small>_may the source be with you!_<small>
-contribution file [Contribution](CONTRIBUTING.md)
+  
+Read [`this!`](CONTRIBUTING.md) 
 
   
 ## Contact
 
-You can reach me on [Telegram @forthetim6being](https://t.me/forthetim6being)
+You can reach me on [`Telegram @forthetim6being`](https://t.me/forthetim6being)
 
   
 ## License
