@@ -1,37 +1,108 @@
-## Welcome to GitHub Pages
+# pysel-map-scraper   ✨ ![LoopGif3](https://cultofthepartyparrot.com/parrots/hd/parrot.gif)
 
-You can use the [editor on GitHub](https://github.com/mmshooreshi/pysel-map-scraper-PoC/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+![LoopGif2](https://media.giphy.com/media/sltXBTQh2ogIFYwNNk/giphy.gif)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![PoC](https://img.shields.io/badge/PoC-Proof--of--Concept-3EE9A1?style=for-the-badge&logo=selenium&logoColor=white) 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### This project is more of a Proof-of-Concept than something for production use.  (´ｰ｀ )ﾉ 🔫
 
-```markdown
-Syntax highlighted code block
+#
 
-# Header 1
-## Header 2
-### Header 3
+📎 [`❮GEOJSON file❯ | INPUT-path.geojson`](./INPUT_path.geojson)
+  
+📎 [`❮CSV file❯ | INPUT-queries.csv`](./INPUT-queries.csv]) 📝
+  
+📎 [`❮CRX file❯ | GPlaces-get.crx`](./GPlaces-get.crx) ⚙
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+# Table of contents
+- [Contribution](#contribution)
+- [Contact](#contact)
+- [License](#license)
+- [Features](#features) ⚡
+- [Why?](#-why)
+- [What's new?](#-whats-new)
+- [Getting Started](#-getting-started) 🔰
+- [Scraped Fields](#-scraped-fields)
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+## Contribution
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Open to any Contributions
 
-### Jekyll Themes
+<small>_may the source be with you!_<small>
+  
+Read [`this!`](CONTRIBUTING.md) 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mmshooreshi/pysel-map-scraper-PoC/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+  
+## Contact
 
-### Support or Contact
+You can reach me on [`Telegram @forthetim6being`](https://t.me/forthetim6being)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  
+## License
+
+[![Licence](https://img.shields.io/github/license/mmshooreshi/pysel-map-scraper-PoC?style=for-the-badge)](./LICENSE)
+
+                  
+# Features            
+  
+   🚶` Scraping google places using Selenium Python in a simple approach. `
+
+   ⚡  **No** need to `google maps API`
+  
+   ⭐ **No** need of any ~~scrolling~~ on the google maps sidebar or handling the ~~pagination~~ 
+  
+   🧮 In case of URL redirecting triggered by google maps, It continue the scraping process **from the last place** it has been scraped. 
+  
+   🪁 Predefined scraping track as a `❮☡ GEOJSON file❯`, define the **movement path** of the scraper on the map.
+  
+   🧬 Each time the app starts, it reads the `customized search queries and map zooms` from the `❮CSV input file❯`. as there may be more than a single query, It may repeat the track for any query and map zoom once it finished the track. 
+
+
+## ⧆ Why? 
+When your money value become close to zero in the real world outside your country, google APIs may not be in your options as a hobbyist data enthusiast.
+this project may be beneficial for small projects, looking to a fast and easy way to look around the local places data. 
+
+## ⚅ What's new?
+Previous open-source selenium tools have been mostly based on scrolling on the google maps paginated sidebar of places and scrape the data. However, in this project, google places information are extracted from the local storage of the browser directly with using the content scripts of the GPlaces-get extension, as another open-source project on JavaScript. So without the use of any google APIs, map viewport gets moving and moving on the predefined path and extracts the places data as CSV files for every <n> scraped places (default: 100).
+
+
+## 🔰 Getting started
+
+  pysel-map-scraper get's moving on the map based on the `❮☡ GEOJSON file❯` defining the path `(INPUT_path.geojson)`. It run the procedure of scraping for each of search queries in the `CSV input file (INPUT-queries.csv)`, And restart the path once each query finished. The app triggers "search this area" button every time gets to a new viewport. GPlaces-get is writing all the data on CSV files and exporting them automatically, whenever it stores 100 new places (and also you may customize this).
+anytime you run the app, it uses the stored logs and gets able to continue the process from the last location&query it has been scraped.  
+
+
+![LoopGif1](https://media.giphy.com/media/D1BbNdibKVeuBZAAJT/giphy.gif)
+
+## ＊ {#scraped-fields}  
+Scraped fields for each place:
+
+ UUID | Created_at | Query | Full address | Local Name | Local full address | Latitude & Longitude | Categories | Reviews 
+ :---: | :--------: | :---:  | :----------: | :--------: | :----------------: | :------------------: | :--------: | :-----:
+ Rating | URL | Domain | Thumbnail | Addr1 | Addr2 | Addr3 | District  | Timezone 
+ 
+
+  
+# Get started 
+  
+1. Clone this repository.
+  
+2. Put the 📎`❮GPlaces-get.crx❯` in  . / pysel-map-scraper-SOC / [move to here]
+Either download the GPlaces-get.crx or clone it's repository and export it to CRX using google chrome extensions developer tools (or other applicable tools).
+  
+3. Donwload the latest chromedriver (which is also open-source) for your operating system from the link below:
+https://browsers.chromedriver.chromium.org
+It is an open source tool for automated testing of webapps across many browsers. It provides capabilities for navigating to web pages, user input, JavaScript execution, and more.  ChromeDriver is a standalone server that implements the W3C WebDriver standard, and is available for Chrome on Android and Chrome on Desktop (Mac, Linux, Windows and ChromeOS).
+  
+4. Complete the INPUT_queries CSV files. It has two columns (query, zoom). each row will be scraped on the map seperately. feel free to add rows as much as you want.
+  
+5. Go to terminal and open your source directory. then use the following code to run the code:
+  
+  ```
+  sudo python3 main.py
+  ```
